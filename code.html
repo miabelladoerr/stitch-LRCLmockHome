@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>La Raza Centro Legal | Free Legal Services &amp; Advocacy</title>
+<meta name="description" content="La Raza Centro Legal advances civil and human rights and ensures access to justice through free legal services and advocacy in immigration, workers' rights, and elder law."/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "brand-red": "#A42B18",
+                "golden-hour-orange": "#FF8C42",
+                "deep-violet": "#2D1B33",
+                "sunset-violet": "#4B2C5E",
+                "bright-amber": "#FFB800",
+                "surface-paper": "#FFFBF5",
+              },
+              borderRadius: {
+                "picado": "0px",
+              },
+              fontFamily: {
+                "headline": ["Plus Jakarta Sans"],
+                "body": ["Inter"],
+              }
+            },
+          },
+        }
+    </script>
+<style type="text/tailwindcss">
+        @layer utilities {
+            .clip-picado {
+                clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 95% 100%, 5% 100%, 0% 85%);
+            }
+            .clip-hill-right {
+                clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
+            }
+            .clip-hill-left {
+                clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
+            }
+            .clip-zigzag {
+                clip-path: polygon(0% 0%, 5% 5%, 10% 0%, 15% 5%, 20% 0%, 25% 5%, 30% 0%, 35% 5%, 40% 0%, 45% 5%, 50% 0%, 55% 5%, 60% 0%, 65% 5%, 70% 0%, 75% 5%, 80% 0%, 85% 5%, 90% 0%, 95% 5%, 100% 0%, 100% 100%, 0% 100%);
+            }
+            .paper-texture {
+                background-image: radial-gradient(#000 0.5px, transparent 0.5px);
+                background-size: 10px 10px;
+                opacity: 0.05;
+            }
+            .weave-line {
+                background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,140,66,0.2) 10px, rgba(255,140,66,0.2) 12px);
+            }
+        }
+    </style>
+</head>
+<body class="bg-deep-violet font-body text-surface-paper antialiased overflow-x-hidden">
+<nav class="fixed top-0 w-full z-[100] border-b border-white/10 bg-deep-violet/90 backdrop-blur-xl">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<a class="text-3xl font-extrabold tracking-tighter text-bright-amber font-headline" href="https://www.lrcl.org/" aria-label="La Raza Centro Legal home">LRCL</a>
+<div class="hidden md:flex gap-8 font-headline font-bold uppercase text-[10px] tracking-[0.2em]">
+<a class="text-bright-amber border-b-2 border-bright-amber pb-1" href="#services">Services</a>
+<a class="text-white/60 hover:text-white transition-colors" href="https://www.lrcl.org/mission-vision-values">About</a>
+<a class="text-white/60 hover:text-white transition-colors" href="https://www.lrcl.org/our-team">Team</a>
+<a class="text-white/60 hover:text-white transition-colors" href="https://www.lrcl.org/volunteer">Volunteer</a>
+<a class="text-white/60 hover:text-white transition-colors" href="https://www.lrcl.org/contact">Contact</a>
+</div>
+<div class="flex items-center gap-4">
+<a href="https://donatenow.networkforgood.org/larazacentrolegal" target="_blank" rel="noopener" class="bg-brand-red text-white px-8 py-3 font-headline font-black uppercase text-xs tracking-widest clip-zigzag hover:scale-105 transition-transform">Donate</a>
+</div>
+</div>
+</nav>
+<header class="relative pt-32 pb-0 min-h-screen flex items-center overflow-hidden">
+<div class="absolute inset-0 weave-line pointer-events-none opacity-30"></div>
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-10">
+<div class="lg:col-span-8">
+<div class="inline-flex items-center gap-3 mb-6">
+<div class="h-[2px] w-12 bg-golden-hour-orange"></div>
+<span class="text-golden-hour-orange font-headline font-bold text-xs uppercase tracking-widest">San Francisco • Since 1973</span>
+</div>
+<h1 class="font-headline font-extrabold text-6xl md:text-8xl leading-[0.9] tracking-tighter mb-8">
+                Justice <span class="text-bright-amber italic">Woven</span> Into Every <span class="text-golden-hour-orange">Neighborhood.</span>
+</h1>
+<p class="text-xl md:text-2xl text-white/70 max-w-2xl leading-relaxed mb-12">
+                We advance civil and human rights and ensure access to justice through free legal services and advocacy — for immigrants, workers, elders, and people with disabilities.
+            </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<a href="#services" class="px-10 py-5 bg-golden-hour-orange text-deep-violet font-headline font-black uppercase text-sm tracking-widest clip-zigzag hover:translate-y-[-4px] transition-all text-center">
+                    Find Services
+                </a>
+<a href="https://www.lrcl.org/contact" class="px-10 py-5 bg-white/10 text-white font-headline font-black uppercase text-sm tracking-widest border border-white/20 hover:bg-white/20 transition-all text-center">
+                    Get Legal Help
+                </a>
+</div>
+</div>
+<div class="lg:col-span-4 relative flex items-end">
+<div class="relative w-full aspect-[3/4] z-20 overflow-hidden border-8 border-bright-amber shadow-2xl">
+<img alt="Community members supporting one another" class="w-full h-full object-cover grayscale contrast-125 mix-blend-multiply" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQCu3cqjfcGCNOmxg-1rTOiMflst-sU8zWWqulLJzU7ZU7TYvgB0YB-LtmDc5wdj5g1KGw9OJdCV5TmrlibwGs_KcIYj8GvR5GHg9UaF61du11UwbA5yZSACNSPRhIHWGeuAQHH8mTQI_MYeXxk6sZwAIicTL91ZOoa-t5Rea9-chj5ePqno1uumivKlN2iHAdmyV39BysjacerSUeHJs7kYHaBrMU2DE5pQCvJNWRn9UhY6ucQw5N5cmmBGC_-ieYS7So9zqUTUdk"/>
+<div class="absolute inset-0 bg-gradient-to-t from-brand-red/80 to-transparent"></div>
+</div>
+<div class="absolute -right-12 top-0 w-24 h-full flex flex-col gap-4 opacity-40">
+<div class="w-12 h-12 border-4 border-bright-amber rotate-45"></div>
+<div class="w-12 h-12 border-4 border-golden-hour-orange rotate-45"></div>
+<div class="w-12 h-12 border-4 border-brand-red rotate-45"></div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-[307px] bg-sunset-violet clip-hill-left z-0"></div>
+<div class="absolute bottom-0 left-0 w-full h-[153px] bg-brand-red clip-hill-right z-1"></div>
+</header>
+<section id="services" class="py-32 bg-surface-paper text-deep-violet relative overflow-hidden scroll-mt-20">
+<div class="absolute top-0 left-0 w-full h-full paper-texture"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="mb-24 flex flex-col md:flex-row md:items-end justify-between gap-12">
+<div class="max-w-2xl">
+<h2 class="font-headline font-black text-5xl md:text-7xl tracking-tighter mb-6 uppercase">Our Programs</h2>
+<div class="h-2 w-32 bg-brand-red mb-6"></div>
+<p class="text-xl text-deep-violet/70 font-medium">Free legal services and advocacy in the areas that matter most to our community.</p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-bright-amber p-6 text-center">
+<p class="font-headline font-black text-4xl">1973</p>
+<p class="text-[10px] uppercase font-bold tracking-widest">Established</p>
+</div>
+<div class="bg-brand-red p-6 text-center text-white">
+<p class="font-headline font-black text-4xl">50+</p>
+<p class="text-[10px] uppercase font-bold tracking-widest">Years Of Service</p>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-px bg-deep-violet/10 p-px">
+<a href="https://www.lrcl.org/immigration" class="md:col-span-2 bg-surface-paper p-12 group hover:bg-brand-red hover:text-white transition-all duration-500 block">
+<span class="material-symbols-outlined text-6xl mb-8 group-hover:scale-110 transition-transform">public</span>
+<h3 class="font-headline font-extrabold text-3xl mb-4 uppercase">Affirmative Immigration</h3>
+<p class="text-lg opacity-80 mb-8 max-w-sm">Pathways to lawful status — naturalization, family petitions, DACA, and humanitarian relief.</p>
+<div class="flex flex-wrap gap-2">
+<span class="px-3 py-1 border border-current text-[10px] font-bold uppercase">Citizenship</span>
+<span class="px-3 py-1 border border-current text-[10px] font-bold uppercase">Family Petitions</span>
+</div>
+</a>
+<a href="https://www.lrcl.org/asylum-and-deportation-defense" class="md:col-span-1 bg-surface-paper p-12 group hover:bg-golden-hour-orange hover:text-white transition-all duration-500 block">
+<span class="material-symbols-outlined text-6xl mb-8 group-hover:scale-110 transition-transform">gavel</span>
+<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Deportation Defense</h3>
+<p class="text-base opacity-80 mb-8">Asylum and removal defense for immigrants facing deportation.</p>
+<span class="font-headline font-black text-xs uppercase tracking-widest flex items-center gap-2">Explore <span class="material-symbols-outlined text-sm">arrow_forward</span></span>
+</a>
+<a href="https://www.lrcl.org/workers-rights" class="md:col-span-1 bg-surface-paper p-12 group hover:bg-deep-violet hover:text-white transition-all duration-500 block">
+<span class="material-symbols-outlined text-6xl mb-8 group-hover:scale-110 transition-transform">work</span>
+<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Workers' Rights</h3>
+<p class="text-base opacity-80 mb-8">Fighting wage theft and ensuring fair conditions for day laborers and domestic workers.</p>
+<div class="mt-auto pt-4 border-t border-current/20">
+<span class="text-[10px] font-black tracking-widest uppercase">Know Your Rights</span>
+</div>
+</a>
+<a href="https://www.lrcl.org/elder-law" class="md:col-span-4 bg-surface-paper p-12 flex flex-col md:flex-row gap-12 group hover:bg-bright-amber transition-all duration-500">
+<div class="flex-1">
+<span class="material-symbols-outlined text-6xl mb-8 group-hover:scale-110 transition-transform">elderly</span>
+<h3 class="font-headline font-extrabold text-3xl mb-4 uppercase">Elder &amp; Disability Law</h3>
+<p class="text-xl opacity-80">Protecting the rights and dignity of seniors and people with disabilities — advance planning, public benefits, and advocacy.</p>
+</div>
+<div class="flex-1 h-64 overflow-hidden border-4 border-deep-violet">
+<img alt="Elder community support" class="w-full h-full object-cover filter saturate-0 group-hover:saturate-100 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9k7OssltZB_rlzSYYt1GWl84MDaFwzYq3ysQO4mRq6g8P6gTVid8yDXN6FtXBjMWKN0O1jBIz2J9Two0MEbCkCPcbz8MNyKe4kPnxU6l-SxVpkK7kD_Zh8mKv_W6p_-gBNEzK5H-Rd3RvTtNVVR_vIvNV6YHdnSw9H_1bqJKHxwIGfRuU8n2QF0XQe7RwxER6Hb3w75rAiGK-DR9PmuxfwY3UFKqN48U0FjGYtSxFDtPDJjIIKS3pEBWaDUvHSizTQtfY_FkfQoV9"/>
+</div>
+</a>
+</div>
+</div>
+</section>
+<section class="py-32 relative bg-deep-violet overflow-hidden">
+<div class="absolute inset-0 weave-line opacity-10"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+<div class="lg:col-span-5 space-y-12"><h2 class="font-headline font-black text-6xl tracking-tighter uppercase leading-none">Our <br/><span class="text-brand-red">Vision.</span></h2>
+<div class="bg-white/5 p-10 border-l-4 border-bright-amber">
+<blockquote class="text-2xl font-medium italic mb-6 leading-relaxed">
+                        "We envision a world where all peoples are treated with deep dignity and respect and where there are no impediments to justice."
+                    </blockquote>
+<cite class="block font-headline font-black text-sm uppercase tracking-[0.2em] text-bright-amber">— La Raza Centro Legal</cite>
+</div>
+<div class="grid grid-cols-1 gap-6">
+<div class="flex items-start gap-6 group">
+<div class="w-16 h-16 bg-brand-red flex items-center justify-center text-white shrink-0 clip-zigzag">
+<span class="material-symbols-outlined text-3xl">campaign</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl mb-2 uppercase">Policy Advocacy</h4>
+<p class="text-white/60">Fighting for laws and policies that protect immigrants, workers, and elders.</p>
+</div>
+</div>
+<div class="flex items-start gap-6 group">
+<div class="w-16 h-16 bg-golden-hour-orange flex items-center justify-center text-deep-violet shrink-0 clip-zigzag">
+<span class="material-symbols-outlined text-3xl">diversity_3</span>
+</div>
+<div>
+<h4 class="font-headline font-bold text-xl mb-2 uppercase">Community Empowerment</h4>
+<p class="text-white/60">Know Your Rights workshops and leadership development for our community.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-7 grid grid-cols-2 gap-4 relative">
+<div class="space-y-4">
+<div class="aspect-[3/4] overflow-hidden border-2 border-white/20">
+<img alt="Community advocacy in action" class="w-full h-full object-cover grayscale brightness-75 hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjSnJZaOE5YjSonlY6MlqveQ3S56X-65dm5W2MGa-CjUIPwT_Q90dikqKZburFt6Gh1qCahprcySCQlxZULHY_zv7OIfqdkz1hmk9SiyOkfuT0uIR1fR1Ibe1o4gKdilmcN1tHVccgNbP67v9822K1G4FNAFGWJIqBUgUiG7Na5G9M123_1qjJ3QUlwFyqVzR70P-W7cWFgGO0X8UK8rgdU6Vk-9lcVNYulQOctw1yXCnGKg2yozp9zyu_OcUNhqJJusm5JvJli6je"/>
+</div>
+<a href="https://www.lrcl.org/volunteer" class="bg-bright-amber p-10 text-deep-violet block hover:bg-golden-hour-orange transition-colors">
+<p class="font-headline font-black text-5xl">Join</p>
+<p class="text-xs uppercase font-bold tracking-widest mt-2">Volunteer With Us</p>
+</a>
+</div>
+<div class="space-y-4 pt-16">
+<div class="bg-brand-red p-10 text-white">
+<p class="font-headline font-black text-5xl">4</p>
+<p class="text-xs uppercase font-bold tracking-widest mt-2">Core Programs</p>
+</div>
+<div class="aspect-square overflow-hidden border-2 border-white/20">
+<img alt="Community unity" class="w-full h-full object-cover grayscale brightness-75 hover:grayscale-0 transition-all duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPR-3XQK5oBgmSciCmcTwLoYed0LsOXiHGsnUq1HEnXzSIdEr41sybA6wlxlhx-u_LYbFW0ojuDTaT4nvldBJ5ozEGb-uzTlyGt7l_sD0TqELNHBEz4tIkK3y0bPqmOPHkgfyc_g6d5nrT2iA32QW_zeWPIbVU0v-_7rXhS5DPLw6f1AWdKZ51QerG3ZxuhTXhVLvCdm2fmcuAG8aMg-ivU7c0KM7_Y_w5-48G0mtQlAX9K4KHDz-ddL33OMZivFis3K--XeMPNe_F"/>
+</div>
+</div>
+<div class="absolute -top-10 -right-10 w-32 h-32 bg-golden-hour-orange/20 clip-picado z-[-1]"></div>
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 border border-white/10 rotate-45 z-[-1]"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 px-6 relative">
+<div class="max-w-5xl mx-auto relative group">
+<div class="absolute inset-0 bg-brand-red clip-picado translate-x-3 translate-y-3 z-0"></div>
+<div class="relative z-10 bg-golden-hour-orange text-deep-violet p-12 md:p-24 text-center clip-picado">
+<h2 class="font-headline font-black text-4xl md:text-6xl uppercase tracking-tighter mb-8 leading-tight">Your Support <br/> Fuels the Fight.</h2>
+<p class="text-xl md:text-2xl font-medium mb-12 max-w-2xl mx-auto opacity-80">As a nonprofit, our impact depends entirely on donors like you. Help us keep justice accessible to all.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<a href="https://donatenow.networkforgood.org/larazacentrolegal" target="_blank" rel="noopener" class="bg-deep-violet text-white px-12 py-5 font-headline font-black uppercase text-sm tracking-[0.2em] hover:bg-brand-red transition-colors">Donate Monthly</a>
+<a href="https://donatenow.networkforgood.org/larazacentrolegal" target="_blank" rel="noopener" class="bg-transparent border-4 border-deep-violet text-deep-violet px-12 py-5 font-headline font-black uppercase text-sm tracking-[0.2em] hover:bg-deep-violet hover:text-white transition-all">One-Time Gift</a>
+</div>
+<p class="mt-8 text-[10px] uppercase font-bold tracking-widest opacity-60">LRCL is a registered 501(c)(3) organization.</p>
+</div>
+</div>
+</section>
+<footer class="bg-deep-violet pt-32 pb-12 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="flex flex-col md:flex-row justify-between items-start gap-12 border-b border-white/10 pb-20">
+<div class="max-w-sm">
+<span class="text-5xl font-black text-bright-amber font-headline uppercase tracking-tighter">LRCL</span>
+<p class="mt-8 text-white/50 leading-relaxed font-medium">La Raza Centro Legal — advancing civil and human rights through free legal services and advocacy since 1973.</p>
+<address class="not-italic mt-8 text-white/50 text-sm space-y-2">
+<p>474 Valencia Street, Suite 295<br/>San Francisco, CA 94103</p>
+<p><a class="hover:text-golden-hour-orange" href="tel:+14155753500">415-575-3500</a></p>
+<p><a class="hover:text-golden-hour-orange" href="mailto:info@lrcl.org">info@lrcl.org</a></p>
+</address>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-16">
+<div>
+<p class="text-white font-black uppercase text-xs tracking-widest mb-6">Services</p>
+<ul class="space-y-4 text-white/50 font-bold text-sm">
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/immigration">Immigration</a></li>
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/asylum-and-deportation-defense">Deportation Defense</a></li>
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/workers-rights">Workers' Rights</a></li>
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/elder-law">Elder &amp; Disability Law</a></li>
+</ul>
+</div>
+<div>
+<p class="text-white font-black uppercase text-xs tracking-widest mb-6">Organization</p>
+<ul class="space-y-4 text-white/50 font-bold text-sm">
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/mission-vision-values">Mission &amp; Values</a></li>
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/our-team">Our Team</a></li>
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/volunteer">Volunteer</a></li>
+<li><a class="hover:text-golden-hour-orange" href="https://www.lrcl.org/contact">Contact</a></li>
+</ul>
+</div>
+<div class="col-span-2 md:col-span-1">
+<p class="text-white font-black uppercase text-xs tracking-widest mb-6">Connect</p>
+<div class="flex flex-wrap gap-3">
+<a aria-label="Facebook" class="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-deep-violet transition-all font-headline font-black text-sm" target="_blank" rel="noopener" href="https://www.facebook.com/larazacentrolegal/">FB</a>
+<a aria-label="Twitter" class="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-deep-violet transition-all font-headline font-black text-sm" target="_blank" rel="noopener" href="https://twitter.com/LaRaza_Legal">TW</a>
+<a aria-label="Instagram" class="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-deep-violet transition-all font-headline font-black text-sm" target="_blank" rel="noopener" href="https://www.instagram.com/larazacentrolegalsf/">IG</a>
+<a aria-label="LinkedIn" class="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-deep-violet transition-all font-headline font-black text-sm" target="_blank" rel="noopener" href="https://www.linkedin.com/company/la-raza-centro-legal/">IN</a>
+<a aria-label="YouTube" class="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-deep-violet transition-all font-headline font-black text-sm" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCFuSkxIHR365M_RI-80g3og">YT</a>
+<a aria-label="Email" class="w-12 h-12 border border-white/20 flex items-center justify-center hover:bg-white hover:text-deep-violet transition-all" href="mailto:info@lrcl.org"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-[10px] font-bold uppercase tracking-widest text-white/30">
+<p>© 2026 La Raza Centro Legal. All rights reserved. 501(c)(3) nonprofit.</p>
+<div class="flex gap-8">
+<a class="hover:text-white" href="https://www.lrcl.org/">Home</a>
+<a class="hover:text-white" href="https://www.lrcl.org/contact">Contact</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
