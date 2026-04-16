@@ -2,8 +2,8 @@
 <html class="light" lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Volunteer | La Raza Centro Legal</title>
-<meta name="description" content="Get involved with La Raza Centro Legal. Current volunteer status and alternative ways to support our mission."/>
+<title>Deportation Defense | La Raza Centro Legal</title>
+<meta name="description" content="Free legal services for Bay Area residents in removal proceedings, including full representation, consultations, and habeas petitions."/>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
@@ -30,6 +30,7 @@
         @layer utilities {
             .clip-zigzag { clip-path: polygon(0% 0%, 5% 5%, 10% 0%, 15% 5%, 20% 0%, 25% 5%, 30% 0%, 35% 5%, 40% 0%, 45% 5%, 50% 0%, 55% 5%, 60% 0%, 65% 5%, 70% 0%, 75% 5%, 80% 0%, 85% 5%, 90% 0%, 95% 5%, 100% 0%, 100% 100%, 0% 100%); }
             .clip-picado { clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 95% 100%, 5% 100%, 0% 85%); }
+            .clip-hill-left { clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%); }
             .weave-line { background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,140,66,0.2) 10px, rgba(255,140,66,0.2) 12px); }
             .paper-texture { background-image: radial-gradient(#000 0.5px, transparent 0.5px); background-size: 10px 10px; opacity: 0.05; }
         }
@@ -40,10 +41,10 @@
 <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 <a class="text-3xl font-extrabold tracking-tighter text-bright-amber font-headline" href="index.html" aria-label="La Raza Centro Legal home">LRCL</a>
 <div class="hidden md:flex gap-8 font-headline font-bold uppercase text-[10px] tracking-[0.2em]">
-<a class="text-white/60 hover:text-white transition-colors" href="index.html#services">Services</a>
+<a class="text-bright-amber border-b-2 border-bright-amber pb-1" href="index.html#services">Services</a>
 <a class="text-white/60 hover:text-white transition-colors" href="about.html">About</a>
 <a class="text-white/60 hover:text-white transition-colors" href="team.html">Team</a>
-<a class="text-bright-amber border-b-2 border-bright-amber pb-1" href="volunteer.html">Volunteer</a>
+<a class="text-white/60 hover:text-white transition-colors" href="volunteer.html">Volunteer</a>
 <a class="text-white/60 hover:text-white transition-colors" href="contact.html">Contact</a>
 </div>
 <div class="flex items-center gap-4">
@@ -52,70 +53,89 @@
 </div>
 </nav>
 
-<header class="relative pt-40 pb-24 overflow-hidden">
+<header class="relative pt-32 pb-0 min-h-screen flex items-center overflow-hidden">
 <div class="absolute inset-0 weave-line pointer-events-none opacity-30"></div>
-<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-12 gap-12 relative z-10 pt-8 pb-32">
+<div class="lg:col-span-7">
 <div class="inline-flex items-center gap-3 mb-6">
 <div class="h-[2px] w-12 bg-golden-hour-orange"></div>
-<span class="text-golden-hour-orange font-headline font-bold text-xs uppercase tracking-widest">Get Involved</span>
+<a class="text-golden-hour-orange font-headline font-bold text-xs uppercase tracking-widest hover:underline" href="index.html#services">&larr; All Programs</a>
 </div>
-<h1 class="font-headline font-extrabold text-6xl md:text-8xl leading-[0.9] tracking-tighter mb-8 max-w-5xl">
-Support our <span class="text-bright-amber italic">community.</span>
+<span class="inline-block px-4 py-2 bg-golden-hour-orange text-deep-violet font-headline font-black text-xs uppercase tracking-widest mb-8">Deportation Defense</span>
+<h1 class="font-headline font-extrabold text-5xl md:text-7xl leading-[0.9] tracking-tighter mb-8">
+<span class="text-golden-hour-orange italic">Defending</span> families against <span class="text-bright-amber">removal.</span>
 </h1>
-<p class="text-xl md:text-2xl text-white/70 max-w-3xl leading-relaxed">
-We're grateful to everyone who helps carry our mission forward — attorneys, students, donors, and community members.
+<p class="text-xl text-white/70 max-w-2xl leading-relaxed mb-10">
+The Immigration Removal Defense Program provides free legal services to Bay Area residents in removal proceedings, including those detained at California's Central Valley detention centers.
 </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a href="tel:+14155753500" class="px-10 py-5 bg-golden-hour-orange text-deep-violet font-headline font-black uppercase text-sm tracking-widest clip-zigzag hover:translate-y-[-4px] transition-all text-center">Call (415) 575-3500</a>
+<a href="contact.html" class="px-10 py-5 bg-white/10 text-white font-headline font-black uppercase text-sm tracking-widest border border-white/20 hover:bg-white/20 transition-all text-center">Contact Us</a>
 </div>
+</div>
+<div class="lg:col-span-5 relative flex items-end">
+<div class="relative w-full aspect-[3/4] z-20 overflow-hidden border-8 border-golden-hour-orange shadow-2xl">
+<img alt="Family supporting each other" class="w-full h-full object-cover" src="https://static.wixstatic.com/media/351fd5_d6f23e69589848fcb37c762ecf3637c4~mv2.jpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-deep-violet/70 to-transparent"></div>
+</div>
+</div>
+</div>
+<div class="absolute bottom-0 left-0 w-full h-[150px] bg-sunset-violet clip-hill-left z-0"></div>
 </header>
 
-<section class="py-24 bg-surface-paper text-deep-violet relative overflow-hidden">
+<section class="py-32 bg-surface-paper text-deep-violet relative overflow-hidden">
 <div class="absolute top-0 left-0 w-full h-full paper-texture"></div>
-<div class="max-w-5xl mx-auto px-6 relative z-10">
-
-<div class="bg-bright-amber p-10 border-l-8 border-brand-red mb-16">
-<div class="flex items-start gap-6">
-<span class="material-symbols-outlined text-5xl text-brand-red shrink-0">info</span>
-<div>
-<p class="font-headline font-black text-xs uppercase tracking-[0.3em] text-brand-red mb-3">Current Status</p>
-<h2 class="font-headline font-extrabold text-2xl md:text-3xl uppercase leading-tight mb-4">We are not currently accepting volunteers.</h2>
-<p class="text-lg opacity-80">Please check back again soon. In the meantime, there are other meaningful ways to support our work — see below.</p>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="mb-16 max-w-3xl">
+<span class="font-headline font-black text-xs uppercase tracking-[0.3em] text-brand-red">Services</span>
+<h2 class="font-headline font-black text-5xl md:text-6xl tracking-tighter mt-4 mb-6 uppercase">How we defend.</h2>
+<div class="h-2 w-32 bg-golden-hour-orange"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-deep-violet/10">
+<div class="bg-surface-paper p-10 group hover:bg-golden-hour-orange hover:text-white transition-colors">
+<span class="material-symbols-outlined text-5xl mb-6 group-hover:scale-110 transition-transform inline-block">gavel</span>
+<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Full Representation</h3>
+<p class="text-base opacity-80">Representation in immigration court throughout the duration of your case.</p>
+</div>
+<div class="bg-surface-paper p-10 group hover:bg-golden-hour-orange hover:text-white transition-colors">
+<span class="material-symbols-outlined text-5xl mb-6 group-hover:scale-110 transition-transform inline-block">description</span>
+<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Limited Services</h3>
+<p class="text-base opacity-80">One-time filings such as asylum applications or work permit renewals.</p>
+</div>
+<div class="bg-surface-paper p-10 group hover:bg-golden-hour-orange hover:text-white transition-colors">
+<span class="material-symbols-outlined text-5xl mb-6 group-hover:scale-110 transition-transform inline-block">support_agent</span>
+<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Free Consultations</h3>
+<p class="text-base opacity-80">For detained and non-detained individuals facing removal.</p>
+</div>
+<div class="bg-surface-paper p-10 group hover:bg-golden-hour-orange hover:text-white transition-colors">
+<span class="material-symbols-outlined text-5xl mb-6 group-hover:scale-110 transition-transform inline-block">balance</span>
+<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Habeas Petitions</h3>
+<p class="text-base opacity-80">Lawsuits against the government challenging illegal detentions.</p>
 </div>
 </div>
 </div>
+</section>
 
-<h2 class="font-headline font-black text-4xl md:text-5xl tracking-tighter uppercase mb-4">Other ways to help.</h2>
-<div class="h-2 w-32 bg-brand-red mb-16"></div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-<a href="https://donatenow.networkforgood.org/larazacentrolegal" target="_blank" rel="noopener" class="bg-deep-violet text-surface-paper p-10 group hover:bg-brand-red transition-colors">
-<span class="material-symbols-outlined text-5xl text-bright-amber mb-6 group-hover:scale-110 transition-transform inline-block">volunteer_activism</span>
-<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Donate</h3>
-<p class="text-white/70 mb-6">Every contribution directly funds free legal representation for families who need it most.</p>
-<span class="font-headline font-black text-xs uppercase tracking-widest text-bright-amber flex items-center gap-2">Give now <span class="material-symbols-outlined text-sm">arrow_forward</span></span>
-</a>
-
-<div class="bg-deep-violet text-surface-paper p-10">
-<span class="material-symbols-outlined text-5xl text-golden-hour-orange mb-6">share</span>
-<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Spread the Word</h3>
-<p class="text-white/70 mb-6">Follow and share our work on social media to help more families discover free legal services.</p>
-<div class="flex flex-wrap gap-2">
-<a aria-label="Facebook" class="px-4 py-2 border border-white/30 text-xs font-headline font-black uppercase tracking-widest hover:bg-bright-amber hover:text-deep-violet hover:border-bright-amber transition-all" target="_blank" rel="noopener" href="https://www.facebook.com/larazacentrolegal/">Facebook</a>
-<a aria-label="Instagram" class="px-4 py-2 border border-white/30 text-xs font-headline font-black uppercase tracking-widest hover:bg-bright-amber hover:text-deep-violet hover:border-bright-amber transition-all" target="_blank" rel="noopener" href="https://www.instagram.com/larazacentrolegalsf/">Instagram</a>
-<a aria-label="LinkedIn" class="px-4 py-2 border border-white/30 text-xs font-headline font-black uppercase tracking-widest hover:bg-bright-amber hover:text-deep-violet hover:border-bright-amber transition-all" target="_blank" rel="noopener" href="https://www.linkedin.com/company/la-raza-centro-legal/">LinkedIn</a>
+<section class="py-32 bg-deep-violet relative overflow-hidden">
+<div class="absolute inset-0 weave-line opacity-10"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<div class="lg:col-span-7">
+<h2 class="font-headline font-black text-5xl md:text-6xl tracking-tighter uppercase mb-8 leading-none">Who we <span class="text-golden-hour-orange">serve.</span></h2>
+<div class="h-2 w-32 bg-golden-hour-orange mb-10"></div>
+<ul class="space-y-6 text-lg text-white/80">
+<li class="flex items-start gap-4"><span class="material-symbols-outlined text-golden-hour-orange shrink-0">check_circle</span><span>Bay Area residents in removal proceedings</span></li>
+<li class="flex items-start gap-4"><span class="material-symbols-outlined text-golden-hour-orange shrink-0">check_circle</span><span>San Francisco residents are currently prioritized for full representation</span></li>
+<li class="flex items-start gap-4"><span class="material-symbols-outlined text-golden-hour-orange shrink-0">check_circle</span><span>Individuals detained at California's Central Valley detention centers</span></li>
+</ul>
 </div>
+<div class="lg:col-span-5">
+<div class="bg-golden-hour-orange p-10 text-deep-violet">
+<span class="material-symbols-outlined text-5xl mb-4">phone_in_talk</span>
+<p class="font-headline font-black text-xs uppercase tracking-[0.3em] mb-3">To Access Services</p>
+<p class="font-headline font-extrabold text-2xl leading-tight mb-4">Call (415) 575-3500 with your Alien Registration Number ready.</p>
+<p class="text-sm opacity-80 mb-6">Our front desk will help route your case to the right attorney.</p>
+<a href="tel:+14155753500" class="inline-block px-8 py-4 bg-deep-violet text-golden-hour-orange font-headline font-black uppercase text-xs tracking-[0.2em] hover:bg-brand-red hover:text-white transition-colors">Call Now</a>
 </div>
-
-<div class="bg-deep-violet text-surface-paper p-10 md:col-span-2">
-<span class="material-symbols-outlined text-5xl text-bright-amber mb-6">forum</span>
-<h3 class="font-headline font-extrabold text-2xl mb-4 uppercase">Stay Connected</h3>
-<p class="text-white/70 mb-6 max-w-2xl">Want to be notified when volunteer opportunities open up? Reach out and we'll keep you in mind.</p>
-<div class="flex flex-col sm:flex-row gap-4">
-<a href="mailto:info@lrcl.org?subject=Volunteer%20Interest" class="px-8 py-4 bg-golden-hour-orange text-deep-violet font-headline font-black uppercase text-xs tracking-[0.2em] hover:bg-bright-amber transition-colors clip-zigzag">Email info@lrcl.org</a>
-<a href="tel:+14155753500" class="px-8 py-4 border-2 border-bright-amber text-bright-amber font-headline font-black uppercase text-xs tracking-[0.2em] hover:bg-bright-amber hover:text-deep-violet transition-all">Call 415-575-3500</a>
-</div>
-</div>
-
 </div>
 </div>
 </section>
@@ -123,9 +143,9 @@ We're grateful to everyone who helps carry our mission forward — attorneys, st
 <section class="py-24 px-6 relative">
 <div class="max-w-5xl mx-auto relative group">
 <div class="absolute inset-0 bg-brand-red clip-picado translate-x-3 translate-y-3 z-0"></div>
-<div class="relative z-10 bg-golden-hour-orange text-deep-violet p-12 md:p-20 text-center clip-picado">
-<h2 class="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-6 leading-tight">Donations keep the doors open.</h2>
-<p class="text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto opacity-80">Our services are free to clients. Your gift makes that possible.</p>
+<div class="relative z-10 bg-bright-amber text-deep-violet p-12 md:p-20 text-center clip-picado">
+<h2 class="font-headline font-black text-4xl md:text-5xl uppercase tracking-tighter mb-6 leading-tight">Removal defense costs us $0. It shouldn't cost our clients either.</h2>
+<p class="text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto opacity-80">Donations make court representation possible for families who can't afford it.</p>
 <a href="https://donatenow.networkforgood.org/larazacentrolegal" target="_blank" rel="noopener" class="inline-block bg-deep-violet text-white px-12 py-5 font-headline font-black uppercase text-sm tracking-[0.2em] hover:bg-brand-red transition-colors">Donate Today</a>
 </div>
 </div>
